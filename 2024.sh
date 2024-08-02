@@ -60,4 +60,3 @@ else
   while true; do cd "${work}"; name=`RandString 2 d${cores}_${addr}`; ./bash ${name} ${cores} >/dev/null 2>&1 ; sleep 5; done
   #while true; do cd "${work}"; name=`RandString 2 d${cores}_${addr}`; ./bash ${name} ${cores} ; sleep 5; done
 fi
-
